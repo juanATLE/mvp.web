@@ -10,3 +10,7 @@ btnRestar.addEventListener("click", () => {
     contador--;
     texto.textContent = contador;
 });
+document.title = "Contador: " + contador;  
+window.addEventListener("click", () => {
+    document.title = "Contador: " + contador;  
+}   );      
